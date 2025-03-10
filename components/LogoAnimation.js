@@ -3,32 +3,24 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import kitty from "/public/assets/cute-icons/kitty.png";
-import kitty1 from "/public/assets/cute-icons/kitty1.png";
-import kitty2 from "/public/assets/cute-icons/kitty2.png";
-import kitty3 from "/public/assets/cute-icons/kitty3.png";
-import kitty4 from "/public/assets/cute-icons/kitty4.png";
-import kitty5 from "/public/assets/cute-icons/kitty5.png";
-import kitty6 from "/public/assets/cute-icons/kitty6.png";
-import kitty7 from "/public/assets/cute-icons/kitty7.png";
 
 const images = [
-    { src: kitty, alt: "kitty" },
-    { src: kitty1, alt: "kitty1" },
-    { src: kitty2, alt: "kitty2" },
-    { src: kitty3, alt: "kitty3" },
-    { src: kitty4, alt: "kitty4" },
-    { src: kitty5, alt: "kitty5" },
-    { src: kitty6, alt: "kitty6" },
-    { src: kitty7, alt: "kitty7" },
-    { src: kitty, alt: "kitty" },
-    { src: kitty1, alt: "kitty1" },
-    { src: kitty2, alt: "kitty2" },
-    { src: kitty3, alt: "kitty3" },
-    { src: kitty4, alt: "kitty4" },
-    { src: kitty5, alt: "kitty5" },
-    { src: kitty6, alt: "kitty6" },
-    { src: kitty7, alt: "kitty7" },
+    { src: "/assets/cute-icons/kitty.png", alt: "kitty" },
+    { src: "/assets/cute-icons/kitty1.png", alt: "kitty1" },
+    { src: "/assets/cute-icons/kitty2.png", alt: "kitty2" },
+    { src: "/assets/cute-icons/kitty3.png", alt: "kitty3" },
+    { src: "/assets/cute-icons/kitty4.png", alt: "kitty4" },
+    { src: "/assets/cute-icons/kitty5.png", alt: "kitty5" },
+    { src: "/assets/cute-icons/kitty6.png", alt: "kitty6" },
+    { src: "/assets/cute-icons/kitty7.png", alt: "kitty7" },
+    { src: "/assets/cute-icons/kitty.png", alt: "kitty" },
+    { src: "/assets/cute-icons/kitty1.png", alt: "kitty1" },
+    { src: "/assets/cute-icons/kitty2.png", alt: "kitty2" },
+    { src: "/assets/cute-icons/kitty3.png", alt: "kitty3" },
+    { src: "/assets/cute-icons/kitty4.png", alt: "kitty4" },
+    { src: "/assets/cute-icons/kitty5.png", alt: "kitty5" },
+    { src: "/assets/cute-icons/kitty6.png", alt: "kitty6" },
+    { src: "/assets/cute-icons/kitty7.png", alt: "kitty7" },
 ];
 
 function LogoAnimation() {
@@ -61,6 +53,7 @@ function LogoAnimation() {
                             src={image.src}
                             alt={image.alt}
                             width={100}
+                            height={100}
                             className="mx-5"
                         />
                     ))}
