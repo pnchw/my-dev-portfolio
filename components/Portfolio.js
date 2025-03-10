@@ -11,7 +11,7 @@ const projects = [
     title: "Facebook clone with HTML and CSS",
     description:
       "A static Facebook UI replica using only HTML & CSS, focusing on pixel-perfect layout and responsive design. Strengthen my skills in CSS Flexbox and positioning techniques to recreate a familiar social media experience.",
-    src: "/assets/project-images/project-1.png",
+    src: "/assets/project-1.png",
   },
   {
     id: 2,
@@ -19,14 +19,14 @@ const projects = [
     title: "Facebook clone with Next.js and Tailwind CSS",
     description:
       "A dynamic Facebook-like app built with Next.js and Tailwind CSS. Features authentication (NextAuth), real-time posts, modals, and dropdowns using Firebase",
-    src: "/assets/project-images/project-2.png",
+    src: "/assets/project-2.png",
   },
   {
     id: 3,
     year: 2025,
     title: "My Portfolio Website",
     description: "A dynamic and animated portfolio website built with Next.js, Tailwind CSS, and Framer Motion.",
-    src: "/assets/project-images/project-3.jpg",
+    src: "/assets/project-3.jpg",
   },
 ];
 
