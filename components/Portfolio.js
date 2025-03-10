@@ -108,7 +108,7 @@ function Portfolio() {
                 >
                   <Image
                     className="my-auto rounded-xl shadow-lg"
-                    src={project.src}
+                    src={selectedProject.src}
                     width={800}
                     height={450}
                     alt={selectedProject.title}
