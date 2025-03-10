@@ -121,7 +121,7 @@ function About() {
                 animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y:20 }}
                 transition={{ delay: 0.8, duration: 0.6 }}
             >
-                <div className="absolute inset-0 bg-gradient-to-r from-blue-200 via-amber-100 to-pink-200 opacity-30 animate-gradient-xy"></div>
+                <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-blue-200 via-amber-100 to-pink-200 opacity-30 animate-gradient-xy"></div>
                 <div className="flex p-6">
                     <motion.div
                         className="flex-none mr-4"
@@ -151,7 +151,7 @@ function About() {
                             animate={isInView ? { opacity: 1 } : { opacity: 0 }}
                             transition={{ delay: 1.5, duration: 0.4 }}
                         >
-                            My gtihub link: <a href="https://github.com/pnchw?tab=repositories" target="_blank">https://github.com/pnchw</a>
+                            My GitHub link: <a href="https://github.com/pnchw" target="_blank" rel="noopener noreferrer">https://github.com/pnchw</a>
                         </motion.p>
                     </div>
                 </div>
