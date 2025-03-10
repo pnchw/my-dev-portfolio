@@ -106,14 +106,13 @@ function Portfolio() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, ease: "easeInOut"}}
                 >
-                  <Image
+                  <img 
                     className="my-auto rounded-xl shadow-lg"
                     src={project.src}
                     width={800}
                     height={450}
                     alt={selectedProject.title}
-                    unoptimized={true}
-                  />
+                  ></img>
                 </motion.div>
               )}
             </motion.div>
