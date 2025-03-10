@@ -8,10 +8,9 @@ const projects = [
   {
     id: 1,
     year: 2025,
-    title: "Facebook clone with HTML and CSS",
-    description:
-      "A static Facebook UI replica using only HTML & CSS, focusing on pixel-perfect layout and responsive design. Strengthen my skills in CSS Flexbox and positioning techniques to recreate a familiar social media experience.",
-    src: "/assets/project1.png",
+    title: "My Portfolio Website",
+    description: "A dynamic and animated portfolio website built with Next.js, Tailwind CSS, and Framer Motion.",
+    src: "/assets/project3.png",
   },
   {
     id: 2,
@@ -24,9 +23,10 @@ const projects = [
   {
     id: 3,
     year: 2025,
-    title: "My Portfolio Website",
-    description: "A dynamic and animated portfolio website built with Next.js, Tailwind CSS, and Framer Motion.",
-    src: "/assets/project3.png",
+    title: "Facebook clone with HTML and CSS",
+    description:
+      "A static Facebook UI replica using only HTML & CSS, focusing on pixel-perfect layout and responsive design. Strengthen my skills in CSS Flexbox and positioning techniques to recreate a familiar social media experience.",
+    src: "/assets/project1.png",
   },
 ];
 
