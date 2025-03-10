@@ -107,9 +107,9 @@ function Portfolio() {
                   transition={{ duration: 0.5, ease: "easeInOut"}}
                 >
                   <Image
-                    className="my-auto rounded-xl shadow-lg"
+                    className="my-auto rounded-xl shadow-lg mt-10"
                     src={selectedProject.src}
-                    width={800}
+                    width={600}
                     height={450}
                     alt={selectedProject.title}
                     unoptimized={true}
